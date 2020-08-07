@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example Document</title>
+        <!--favicon-->
+        <link rel="icon" href="img/m.png">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <style>
+        .mycards{
+            width: 100%;
+            padding: 15px 10px;
+            background-color: lightyellow;
+        }
+        .mycards:hover{
+            box-shadow: 0 0 10px royalblue;
+            background-color: yellow;
+            color: orangered;
+        }
+
+
+
+        
+/* responsive*/
+@media(min-width: 992px) and (max-width: 1200px) {
+    #cards{
+        padding: 10px;
+    }
+    .mycards{
+        width: 100%;
+        padding: 0px 10px;
+        margin-bottom: 5px;
+    }
+    .mycards i{
+        margin-top: 15px;
+    }
+    .mycards h4{
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 901px) and (max-width: 992px){
+    #myimg{
+        margin-bottom: 20px;
+    }
+    #cards{
+        padding: 10px;
+    }
+    .mycards{
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 5px;
+    }
+    .mycards i{
+        margin-top: 15px;
+    }
+    .mycards h4{
+        font-size: 15px;
+    }
+}
+@media(min-width: 801px) and (max-width: 900px){
+    #myimg{
+        margin-bottom: 20px;
+    }
+    #cards{
+        padding: 10px;
+    }
+    .mycards{
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 5px;
+    }
+    .mycards i{
+        margin-top: 15px;
+    }
+    .mycards h4{
+        font-size: 15px;
+    }
+}
+@media(min-width: 768px) and (max-width:800px){
+    #myimg{
+        margin-bottom: 20px;
+    }
+    #cards{
+        padding: 10px;
+    }
+    .mycards{
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 5px;
+    }
+    .mycards i{
+        margin-top: 15px;
+    }
+}
+
+@media(min-width: 575px) and (max-width:767px){
+    #myimg{
+        margin-bottom: 20px;
+    }
+    #cards{
+        padding: 10px;
+    }
+    .mycards{
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 5px;
+    }
+    .mycards i{
+        margin-top: 15px;
+    }
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+    #myimg{
+        margin-bottom: 20px;
+    }
+    #cards{
+        padding: 10px;
+    }
+    .mycards{
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 5px;
+    }
+    .mycards i{
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 479px){
+    #myimg{
+        margin-bottom: 20px;
+    }
+    #cards{
+        padding: 10px;
+    }
+    .mycards{
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 5px;
+    }
+    .mycards i{
+        margin-top: 15px;
+    }
+}
+
+        </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-xl-7 col-lg-7  col-12">
+                <img src="img/spa1.jpg" class="img-fluid"  id="myimg" alt="">
+            </div>
+            <div class="col-xl-5 col-lg-5  col-12" id="cards">
+                <div class="row"> 
+                    <div class="card"  onmouseover="set()">
+                        <div class="mycards">
+                            <div class="row">
+                                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+                                    <i class="fa fa-spa fa-2x   "></i>
+                                    <h4>SPA</h4>
+                                </div>
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 col-10">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda labore totam, mollitia alias ex quas!</p>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="card"  onmouseover="set1()" >
+                        <div class="mycards">
+                            <div class="row">
+                                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+                                    <i class=" fas fa-swimmer fa-2x"></i>
+                                    <h4>Pool</h4>
+                                </div>
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 col-10">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda labore totam, mollitia alias ex quas!</p>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="card"  onmouseover="set2()" >
+                        <div class="mycards">
+                            <div class="row">
+                                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+                                    <i class=" fas fa-glass-martini-alt fa-2x"></i>
+                                    <h4>BAR</h4>
+                                </div>
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 col-10">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda labore totam, mollitia alias ex quas!</p>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+    function set(){
+        var img = document.getElementById('myimg').src="img/spa1.jpg";
+    }
+
+    function set1(){
+        var img = document.getElementById('myimg').src="img/swm.jpg";
+    }
+
+    function set2(){
+        var img = document.getElementById('myimg').src="img/rab.jpg";
+    }
+
+    
+    </script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

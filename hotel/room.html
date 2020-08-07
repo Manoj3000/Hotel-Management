@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Hotel Management Project</title>
+        <!--favicon-->
+        <link rel="icon" href="img/m.png">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <!--css file link-->
+        <link rel="stylesheet" href="">
+        <!--lightbox-->
+        <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <style>
+    body{
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    text-transform: capitalize;
+    color: white;
+}
+hr{
+    height: 5px;
+    color: royalblue;
+    border-radius: 50%;
+}
+ul li{
+    list-style-type: none;
+    text-transform: uppercase; 
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 1px;
+}
+.row{
+    margin-bottom: 20px;
+    border: 1px solid lightblue;
+}
+#minibox{
+    line-height: 20px;
+    padding: 10px;
+}
+
+
+
+/*-------- responsive --------- */
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width:991px){
+
+}
+@media(min-width: 575px) and (max-width:767px){
+    
+}
+@media(min-width: 480px) and (max-width: 574px){
+    
+}
+@media (min-width:321px) and (max-width:479px){
+
+}
+@media (max-width:320px){
+    
+}
+    
+    </style>
+
+    </head>
+
+
+<body  style="background-color:rgba(4,91,232,0.1);">
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md bg-primary sticky-top">
+        <div class="container">
+            <a href="" class="navbar-brand text-warning ">MANOJ</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="navbar-nav text-center ml-auto" >
+                    <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="booking.php" class="nav-link">Book Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--- main code  -->
+    <div class="container">
+    <!--one card-->
+        <div class="row mt-5 p-3">
+            <div class="col-xl-7 col-lg-7 col-12">
+                <a href="img/s4.jpg" data-lightbox="mygallery">
+                    <img src="img/s4.jpg" class="img-fluid" alt="">
+                </a>    
+            </div>
+            <div class="col-xl-5 col-lg-5 col-12" id="minibox">
+
+                <div class="row" id="single">
+                    <div class="col">
+                        <h2 class="text-primary" >Single Room</h2>
+                        <hr style="height:1px;background-color:royalblue;">
+                    </div>
+                    <div class="col">
+                        <h4 class="float-right">1200 <i class="fa fa-rupee-sign"></i> </h4>
+                        <br><br>
+                        <p class="float-right"> -PER DAY</p>
+                    </div>
+                </div>
+
+                <div class="container text-justify mt-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sapiente sit quas, molestiae ullam nulla dolore suscipit dicta nostrum a voluptatum similique reprehenderit, dolorem deserunt eaque recusandae praesentium, quae velit.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> air conditioning</li>
+                            <li> <i class="fas fa-desktop"></i> lcd tv</li>
+                            <li> <i class="fas fa-wifi"></i> wi-fi</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> hair dryer</li>
+                            <li> <i class="fas fa-user-shield"></i> security system</li>
+                            <li> <i class="fas fa-glass-martini-alt"></i> mini bar</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a href="index.html" class="btn btn-primary float-right">Book Now</a>
+
+            </div>
+        </div>
+        <!--two card-->
+        <div class="row mt-5 p-3" style="background-color:rgba(0,0,0,0.1);" id="double">
+            <div class="col-xl-5 col-lg-5 col-12"  id="minibox">
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-primary" >Double Room</h2>
+                        <hr style="height:1px;background-color:royalblue;">
+                    </div>
+                    <div class="col">
+                        <h4 class="float-right">1800 <i class="fa fa-rupee-sign"></i> </h4>
+                        <br><br>
+                        <p class="float-right"> -PER DAY</p>
+                    </div>
+                </div>
+        
+                <div class="container text-justify mt-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sapiente sit quas, molestiae ullam nulla dolore suscipit dicta nostrum a voluptatum similique reprehenderit, dolorem deserunt eaque recusandae praesentium, quae velit.</p>
+                </div>
+    
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> air conditioning</li>
+                            <li> <i class="fas fa-desktop"></i> lcd tv</li>
+                            <li> <i class="fas fa-wifi"></i> wi-fi</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> hair dryer</li>
+                            <li> <i class="fas fa-user-shield"></i> security system</li>
+                            <li> <i class="fas fa-glass-martini-alt"></i> mini bar</li>
+                        </ul>
+                    </div>
+                </div>    
+                <a href="index.html" class="btn btn-primary">Book Now</a>
+        
+            </div>
+            <div class="col-xl-7 col-lg-7 col-12">
+                <a href="img/d2.jpg" data-lightbox="mygallery">
+                    <img src="img/d2.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+                    
+        </div>
+            
+        <!--tree card-->
+        <div class="row mt-5 p-3" id="family">
+            <div class="col-xl-7 col-lg-7 col-12">
+                <a href="img/f2.jpg" data-lightbox="mygallery">
+                    <img src="img/f2.jpg" class="img-fluid" alt="">
+                </a>    
+            </div>
+            <div class="col-xl-5 col-lg-5 col-12"  id="minibox">
+    
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-primary" >Family Room</h2>
+                        <hr style="height:1px;background-color:royalblue;">
+                    </div>
+                    <div class="col">
+                        <h4 class="float-right">2200 <i class="fa fa-rupee-sign"></i> </h4>
+                        <br><br>
+                        <p class="float-right"> -PER DAY</p>
+                    </div>
+                </div>
+        
+                <div class="container text-justify mt-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sapiente sit quas, molestiae ullam nulla dolore suscipit dicta nostrum a voluptatum similique reprehenderit, dolorem deserunt eaque recusandae praesentium, quae velit.</p>
+                </div>
+    
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> air conditioning</li>
+                            <li> <i class="fas fa-desktop"></i> lcd tv</li>
+                            <li> <i class="fas fa-wifi"></i> wi-fi</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> hair dryer</li>
+                            <li> <i class="fas fa-user-shield"></i> security system</li>
+                            <li> <i class="fas fa-glass-martini-alt"></i> mini bar</li>
+                        </ul>
+                    </div>
+                </div>    
+                <a href="index.html" class="btn btn-primary float-right">Book Now</a>
+            </div>
+        </div>
+
+        <!--two card-->
+        <div class="row mt-5 p-3" style="background-color:rgba(0,0,0,0.1);" id="luxury">
+            <div class="col-xl-5 col-lg-5 col-12"  id="minibox">
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-primary" >Luxury Room</h2>
+                        <hr style="height:1px;background-color:royalblue;">
+                    </div>
+                    <div class="col">
+                        <h4 class="float-right">4200 <i class="fa fa-rupee-sign"></i> </h4>
+                        <br><br>
+                        <p class="float-right"> -PER DAY</p>
+                    </div>
+                </div>
+        
+                <div class="container text-justify mt-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sapiente sit quas, molestiae ullam nulla dolore suscipit dicta nostrum a voluptatum similique reprehenderit, dolorem deserunt eaque recusandae praesentium, quae velit.</p>
+                </div>
+    
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> air conditioning</li>
+                            <li> <i class="fas fa-desktop"></i> lcd tv</li>
+                            <li> <i class="fas fa-wifi"></i> wi-fi</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> hair dryer</li>
+                            <li> <i class="fas fa-user-shield"></i> security system</li>
+                            <li> <i class="fas fa-glass-martini-alt"></i> mini bar</li>
+                        </ul>
+                    </div>
+                </div>    
+                <a href="index.html" class="btn btn-primary ">Book Now</a>
+        
+            </div>
+            <div class="col-xl-7 col-lg-7 col-12">
+                <a href="img/l3.jpg" data-lightbox="mygallery">
+                    <img src="img/l3.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+                    
+        </div>
+
+        <!--tree card-->
+        <div class="row mt-5 mb-5 p-3" id="honeymoon">
+            <div class="col-xl-7 col-lg-7 col-12">
+                <a href="img/h2.jpg" data-lightbox="mygallery">
+                    <img src="img/h2.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-12"  id="minibox">
+                
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-primary" >Honeymoon Room</h2>
+                        <hr style="height:1px;background-color:royalblue;">
+                    </div>
+                    <div class="col">
+                        <h4 class="float-right">3500 <i class="fa fa-rupee-sign"></i> </h4>
+                        <br><br>
+                        <p class="float-right"> -PER DAY</p>
+                    </div>
+                </div>
+                    
+                <div class="container text-justify mt-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sapiente sit quas, molestiae ullam nulla dolore suscipit dicta nostrum a voluptatum similique reprehenderit, dolorem deserunt eaque recusandae praesentium, quae velit.</p>
+                </div>
+            
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> air conditioning</li>
+                            <li> <i class="fas fa-desktop"></i> lcd tv</li>
+                            <li> <i class="fas fa-wifi"></i> wi-fi</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li> <i class="fas fa-wind"></i> hair dryer</li>
+                            <li> <i class="fas fa-user-shield"></i> security system</li>
+                            <li> <i class="fas fa-glass-martini-alt"></i> mini bar</li>
+                        </ul>
+                    </div>
+                </div>        
+                <a href="index.html" class="btn btn-primary float-right">Book Now</a>
+                    
+            </div>
+        </div>
+            
+
+    </div>
+
+        
+
+
+        <!--lightbox-->
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

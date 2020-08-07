@@ -1,0 +1,558 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.nav-link{
+    text-transform: capitalize;
+    color: white;
+}
+.main{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('..//img/h3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+}
+.heading{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    padding: 20px;
+}
+.heading h1{
+    font-size: 5rem;
+    text-shadow: 0 0 10px black;
+}
+.check{
+    width: auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px 20px;
+    position: relative;
+    top: calc(-300px/2);
+    box-shadow: 0 5px 10px black;
+}
+.check h2{
+    margin-bottom: 20px;
+}
+.welcome{
+    position: relative;
+    margin-top: 0px;
+}
+.welcome video{
+    box-shadow: 0 0 10px black;
+}
+.rooms{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.1);
+}
+.roomcards{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.services{
+    margin-top: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'PT Serif', serif;
+}
+.aug{
+        padding: 50px;
+}
+.aboutus{
+    color: white;
+    height: 100%;
+    background-color: black;
+}
+
+#About2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/about.jpg');
+    background-size: cover;
+    transition: 0.5s;
+}
+#About2:hover{
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../img/about.jpg');
+    background-size: cover;
+}
+.aboutus:hover{
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/srv.jpg');
+}
+.aboutus h2{
+    margin-bottom: 50px;
+}
+.aboutus p{
+    margin-top: 30px;
+}
+.gallery h2{
+    margin-bottom: 50px;
+}
+.aug p{
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.gallery img{
+    padding: 10px;
+    transition: 1s;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+    filter: sepia(100)
+}
+
+.card-body h2{
+    font-weight: normal;
+}
+.card-body span{
+    font-size: 15px;
+    color: gray;
+}
+.card-body a{
+    background-color: orangered;
+    color: white;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.card-body a:hover{
+    background-color: orange;
+    color: black
+}
+
+/*-----------contact form -----------*/
+
+
+.mycontact{
+    padding: 50px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url('../img/nbg7.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.contactheading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.contactheading p{
+    font-weight: 600;
+    color: red;
+}
+input[type="text"],input[type="email"]{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+input[type="text"]:hover,input[type="email"]:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+textarea:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+.mybtn{
+    width: 150px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    outline: none;
+    border: none;
+    border: 1px solid orangered;
+    transition: 1s;
+}
+.mybtn:hover{
+    background-color: white;
+    color: orangered;
+}
+
+.contactbox1{
+    padding: 50px 0;
+    width: 100%;
+    height: 200px;
+    background-color: lightcoral;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url('../img/call.jpg');
+    background-size: cover;
+    transition: 1s;
+}
+.contactbox2{
+    padding: 50px 0;
+    width: 100%;
+    height: 200px;
+    background-color: lightcoral;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url('../img/email.jpg');
+    background-size: cover;
+    transition: 1s;
+}
+.contactbox3{
+    padding: 50px 0;
+    width: 100%;
+    height: 200px;
+    background-color: lightcoral;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    text-transform: capitalize;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url('../img/address.jpg');
+    background-size: cover;
+    transition: 1s;
+}
+.contactbox1:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url('../img/call.jpg');
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.contactbox2:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url('../img/email.jpg');
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.contactbox3:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url('../img/address.jpg');
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+#footer{
+    background: linear-gradient(rgba(23,34,106,0.9),rgba(23,34,106,0.9)),url('../img/abc.jpg');
+    background-size: cover;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    text-transform: capitalize;
+    color: white;
+}
+#footer:hover{
+    background: linear-gradient(rgba(23,34,106,0.8),rgba(23,34,106,0.8)),url('../img/abc.jpg');
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive*/
+
+@media(min-width: 992px){
+    .heading h1{
+        font-size: 60px;
+    }
+    .heading p{
+        font-size: 15px;
+    }
+    .check h2{
+        margin-bottom: 30px;
+    }
+    .welcome{
+        position: relative;
+        margin-top: 0px;
+    }
+    .aug p{
+        font-size: 15px;
+        text-align: unset;
+    }
+    .aug h2{
+        font-size: 29px;
+    }
+    .aboutus{
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px){
+    .heading h1{
+        font-size: 55px;
+    }
+    .heading p{
+        font-size: 15px;
+    }
+    .check h2{
+        margin-bottom: 30px;
+    }
+    .welcome{
+        position: relative;
+        margin-top: 0px;
+    }
+    .aug p{
+        font-size: 15px;
+        text-align: unset;
+    }
+    .aug h2{
+        font-size: 27px;
+    }
+    .aboutus{
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    .aboutus h2{
+        margin-bottom: 30px;
+    }
+    .aboutus p{
+        margin-top: 10px;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+
+@media(min-width: 575px) and (max-width:767px){
+    h1{font-size: 35px;}h2{font-size: 30px;}h3{font-size: 26px;}
+    .heading h1{
+        font-size: 50px;
+    }
+    .heading p{
+        font-size: 14px;
+    }
+    .check h2{
+        margin-bottom: 30px;
+    }
+    .welcome{
+        position: relative;
+        margin-top: 0px;
+    }
+    .aug p{
+        font-size: 15px;
+        text-align: unset;
+        letter-spacing: 1px;
+    }
+    .aug h2{
+        font-size: 24px;
+    }
+    .aboutus{
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    .aboutus h2{
+        margin-bottom: 30px;
+    }
+    .aboutus p{
+        margin-top: 10px;
+    }
+    iframe{
+        width: 100%;
+        margin-top: 20px;
+    }   
+    input[type="submit"]{
+        margin: 20px 0;
+    }
+    .contactbox1{
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+    .contactbox2{
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+    .contactbox3{
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+    h1{font-size: 35px;}h2{font-size: 30px;}h3{font-size: 26px;}
+    .heading h1{
+        font-size: 45px;
+    }
+    .heading p{
+        font-size: 13px;
+    }
+    .check{
+        margin: 0px 50px;
+    }
+    .check h2{
+        margin-bottom: 30px;
+    }
+    .welcome{
+        position: relative; 
+    }
+    .aug p{
+        font-size: 15px;
+        text-align: unset;
+        letter-spacing: normal;
+    }
+    .aug h2{
+        font-size: 23px;
+    }
+    .aboutus{
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    .aboutus h2{
+        margin-bottom: 30px;
+    }
+    .aboutus p{
+        margin-top: 10px;
+    }
+    iframe{
+        width: 100%;
+        margin-top: 20px;
+    }   
+    input[type="submit"]{
+        margin: 20px 0;
+    }
+    .contactbox1{
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+    .contactbox2{
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+    .contactbox3{
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+}
+
+@media (min-width:321px) and (max-width:479px){
+    h1{font-size: 30px;}h2{font-size: 27px;}h3{font-size: 24px;}
+    .heading{
+        position: absolute;
+        top: 15%;
+        left: 0%;
+    }
+    .heading h1{
+        font-size: 33px;
+    }
+    .heading p{
+        font-size: 10px;
+    }
+    .check{
+        margin: 0px 50px;
+    }
+    .check h2{
+        margin-bottom: 30px;
+    }
+    .welcome{
+        position: relative;
+        margin-top: 0px;
+    }
+    .aug p{
+        font-size: 13px;
+        text-align: unset;
+        letter-spacing: normal;
+    }
+    .aug h2{
+        font-size: 20px;
+    }
+    .aboutus{
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    .aboutus h2{
+        margin-bottom: 30px;
+    }
+    .aboutus p{
+        margin-top: 10px;
+    }
+    iframe{
+        width: 100%;
+        margin-top: 20px;
+    }   
+    input[type="submit"]{
+        margin: 20px 0;
+    }
+    .contactbox1{
+        padding: 20px 0px;
+        margin: 20px 10px;
+    }
+    .contactbox2{
+        padding: 20px 0px;
+        margin: 20px 10px;
+    }
+    .contactbox3{
+        padding: 20px 0px;
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width:320px){
+    h1{font-size: 25px;}h2{font-size: 23px;}h3{font-size: 20px;}
+    .heading{
+        position: absolute;
+        top: 15%;
+        left: 0;
+    }
+    .heading h1{
+        font-size: 22px;
+    }
+    .heading p{
+        font-size: 8px;
+    }
+    .check{
+        margin: 0px 50px;
+
+    }
+    .check h2{
+        margin-bottom: 30px;
+    }
+    .welcome{
+        position: relative;
+        margin-top: 0px;
+    }
+    .aug p{
+        font-size: 12px;
+        text-align: unset;
+        letter-spacing: normal;
+    }
+    .aug h2{
+        font-size: 18px;
+    }
+    .aboutus{
+        padding: 25px;
+        margin-bottom: 40px;
+    }
+    .aboutus h2{
+        margin-bottom: 25px;
+    }
+    .aboutus p{
+        margin-top: 10px;
+    }
+
+}
+
+
+

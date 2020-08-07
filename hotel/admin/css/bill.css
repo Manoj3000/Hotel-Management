@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/hb.jpg');
+    background-size: cover
+}
+.nav-link{
+        color:white;
+    }
+.box{
+    width:10px;
+    height:10px;
+    background-color:magenta;
+    float:left;
+    margin-left:10px;
+    border-radius: 50%;
+}
+.box:nth-child(2){
+    background-color:Yellow ;
+}
+.box:nth-child(3){
+    background-color: aqua;
+}
+.heading{
+    background-image: url('../img/hb.jpg');
+    background-size: cover;    
+}
+hr{
+    height: 5px;
+    background-color: steelblue;
+    border-radius: 50px;   
+    }
